@@ -12,6 +12,8 @@ var config = {
     libraryTypeScriptDefinitions: './typings/**/*.ts',
     appTypeScriptReferences: './typings/tsd.d.ts',
     tsOutputPath: './wwwroot/js',
+    allHtml: './App/**/*.html',
+    allHtmlOutput: './wwwroot/html'
 };
 
 gulp.task('compile-ts', function () {
@@ -31,4 +33,10 @@ gulp.task('compile-ts', function () {
     return tsResult.js
                     .pipe(sourcemaps.write('.'))
                     .pipe(gulp.dest(config.tsOutputPath));
+});
+
+
+gulp.task('copy-html', function () {
+    gulp.src(config.allHtml)
+        .pipe(gulp.dest(config.allHtmlOutput));
 });
