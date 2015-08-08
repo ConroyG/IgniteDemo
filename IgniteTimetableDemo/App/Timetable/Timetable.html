@@ -1,0 +1,12 @@
+﻿<md-content>
+    <md-list>
+        <md-list-item class="md-3-line" ng-repeat="i in model">
+            <img ng-src="{{item.face}}?{{$index}}" class="md-avatar" alt="{{item.who}}" />
+            <div class="md-list-item-text">
+                <h3>{{ i.Name }}</h3>
+                <h4>{{ i.Details.Theme }}</h4>
+                <p>{{ i.Description }}</p>
+            </div>
+        </md-list-item>
+    </md-list>
+</md-content>
