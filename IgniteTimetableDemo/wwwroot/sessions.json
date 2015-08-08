@@ -1,0 +1,319 @@
+﻿{
+  "Sessions":[  
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1383,
+         "Name":"Exam 70-346: Managing Office 365 Identities and Requirements ",
+         "Speakers":[  
+            {  
+               "Id":1554,
+               "Name":"Malcolm Jeffrey",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T11:00:00",
+            "EndDatetime":"2015-09-01T12:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  11:00 a.m."
+         },
+         "Description":"This exam is designed for IT professionals who take part in evaluating, planning, deploying, and operating the Office 365 services, including its dependencies, requirements, and supporting technologies. They should have experience with the Office 365 Admin Center and an understanding of Exchange Online, Lync Online, SharePoint Online, Office 365 ProPlus, and Azure Active Directory. This includes experience with service descriptions, configuration options, and integrating services with existing identity management and on-premises infrastructure to support the business requirements of an organization. ",
+         "Details":{  
+            "Audience":"Architect, IT Implementer",
+            "Topic":"Usage & Adoption",
+            "Theme":"Productivity & Collaboration",
+            "Product":"Office 365",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1385,
+         "Name":"Exam 70-417: Upgrading your skills to MCSA Windows Server 2012",
+         "Speakers":[  
+            {  
+               "Id":1554,
+               "Name":"Malcolm Jeffrey",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T11:00:00",
+            "EndDatetime":"2015-09-01T12:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  11:00 a.m."
+         },
+         "Description":"This exam is intended for IT professionals who want to validate the skills and knowledge necessary to implement the Windows Server 2012 core infrastructure services. Candidates have already earned the MCSA: Windows Server 2008 certification or one of the following MCITP certifications: Virtualization Administrator on Windows Server 2008 R2, Enterprise Messaging Administrator 2010, Lync Server Administrator 2010, SharePoint Administrator 2010, or Enterprise Desktop Administrator on Windows 7.",
+         "Details":{  
+            "Audience":"IT Implementer",
+            "Topic":"Operations & Management",
+            "Theme":"Productivity & Collaboration",
+            "Product":"Windows Server",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1386,
+         "Name":"Exam 70-533: Implementing Microsoft Azure Infrastructure Solutions",
+         "Speakers":[  
+            {  
+               "Id":1661,
+               "Name":"James Finley",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T11:00:00",
+            "EndDatetime":"2015-09-01T12:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  11:00 a.m."
+         },
+         "Description":"This exam is for candidates who are experienced in implementing an infrastructure solution in Microsoft Azure. Candidates have experience implementing and monitoring cloud and hybrid solutions as well as supporting application lifecycle management.",
+         "Details":{  
+            "Audience":"Architect, Developer, IT Implementer",
+            "Topic":"Deployment & Implementation",
+            "Theme":"Cloud",
+            "Product":"Azure IaaS",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1384,
+         "Name":"Exam 70-347: Enabling Office 365 Services",
+         "Speakers":[  
+            {  
+               "Id":1554,
+               "Name":"Malcolm Jeffrey",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T12:30:00",
+            "EndDatetime":"2015-09-01T13:30:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  12:30 p.m."
+         },
+         "Description":"This exam is designed for IT professionals who take part in evaluating, planning, deploying and operating the Office 365 services, including its dependencies, requirements and supporting technologies. They should have experience with the Office 365 Admin Centre and an understanding of Exchange Online, Lync Online, SharePoint Online, Office 365 ProPlus and Microsoft Azure Active Directory. This includes experience with service descriptions, configuration options, and integrating services with existing identity management and on-premises infrastructure to support the business requirements of an organisation.",
+         "Details":{  
+            "Audience":"Architect, IT Implementer",
+            "Topic":"Deployment & Implementation",
+            "Theme":"Productivity & Collaboration",
+            "Product":"Office 365",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1389,
+         "Name":"Exam 74-409: Server Virtualization with Windows Server Hyper-V and System Center",
+         "Speakers":[  
+            {  
+               "Id":1661,
+               "Name":"James Finley",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T12:30:00",
+            "EndDatetime":"2015-09-01T13:30:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  12:30 p.m."
+         },
+         "Description":"Candidates for this exam are IT professionals who are responsible for designing, implementing, managing, and maintaining a virtualization infrastructure and/or who are interested in validating their skills on current Microsoft virtualization technologies.",
+         "Details":{  
+            "Audience":"IT Implementer",
+            "Topic":"Deployment & Implementation",
+            "Theme":"Productivity & Collaboration",
+            "Product":"Hyper-V",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1390,
+         "Name":"PowerTips for PowerShell Admins",
+         "Speakers":[  
+            {  
+               "Id":1661,
+               "Name":"James Finley",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-01T12:30:00",
+            "EndDatetime":"2015-09-01T13:30:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Tue 1 Sept,  12:30 p.m."
+         },
+         "Description":"Love it or hate it, PowerShell is a fact of life for any IT administrator. From client deployment tools to virtualization platforms and everything in between, PowerShell is increasingly the command-line and scripting tool you need to know. This session will focus on helping you turn your basic proficiency into mad PowerShell skills that will turn you into the IT Pro you want to be! Note that this session does not relate to a specific exam – but it’s invaluable material to the IT admin community.",
+         "Details":{  
+            "Audience":"IT Implementer",
+            "Topic":"Operations & Management",
+            "Theme":"Productivity & Collaboration",
+            "Product":"Windows PowerShell",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":95,
+         "Name":"Microsoft Azure and the Enterprise",
+         "Speakers":[  
+            {  
+               "Id":289,
+               "Name":"Jaron Burbidge",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-02T09:00:00",
+            "EndDatetime":"2015-09-02T10:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Wed 2 Sept,  9:00 a.m."
+         },
+         "Description":"Come and get a tour of Microsoft Azure, the leading features and capabilities and learn how other new Zealand customers are using Azure today",
+         "Details":{  
+            "Audience":"Architect, IT Implementer, IT Decision Maker",
+            "Topic":"Deployment & Implementation",
+            "Theme":"Cloud",
+            "Product":"Azure IaaS",
+            "Level":"Level 200"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":104,
+         "Name":"Windows 10 in the Enterprise",
+         "Speakers":[  
+            {  
+               "Id":1985,
+               "Name":"Katharine Holdsworth",
+               "IsMVP":false
+            },
+            {  
+               "Id":317,
+               "Name":"Simon May",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-02T09:00:00",
+            "EndDatetime":"2015-09-02T10:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Wed 2 Sept,  9:00 a.m."
+         },
+         "Description":"Enterprises want a joined-up experience – one that delivers a converged ecosystem.  Join Katharine Holdsworth and Simon May as they take you through the new Windows infrastructure, capabilities and experience for a modern enterprise.  See what IT Admins and tech-savvy consumers expect from their workspace and how this is relevant to you in a risk aware, evergreen environment.",
+         "Details":{  
+            "Audience":"IT Implementer, IT Decision Maker",
+            "Topic":"Usage & Adoption",
+            "Theme":"Mobility",
+            "Product":"Windows Client (Desktop & Mobile)",
+            "Level":"Level 200"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1132,
+         "Name":"Mashup the Internet of Things, Azure App Service and Windows 10 to Deliver Business Value",
+         "Speakers":[  
+            {  
+               "Id":1401,
+               "Name":"Rob Tiffany",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-02T09:00:00",
+            "EndDatetime":"2015-09-02T10:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Wed 2 Sept,  9:00 a.m."
+         },
+         "Description":"Streaming telemetry from sensors to Azure IoT services is one of the most promising ways an organization can derive valuable insights about their assets. That said, those insights won't actually help an organization reduce expenses, enhance revenue or improve customer service unless you make them actionable.  Join Rob as he shows you how to turn insights into action via Azure App Service and Universal Windows apps to connect employees to IoT data so they can deliver better outcomes for business.",
+         "Details":{  
+            "Audience":"Architect, Developer",
+            "Topic":"Development",
+            "Theme":"Internet Of Things",
+            "Product":"",
+            "Level":"Level 300"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      },
+      {  
+         "EventSessionId":0,
+         "EventSessionRegistrationId":0,
+         "SessionId":1220,
+         "Name":"Think.Feel: A crash course for Architects by Architects on Design Thinking",
+         "Speakers":[  
+            {  
+               "Id":1594,
+               "Name":"Darren Hubert",
+               "IsMVP":false
+            }
+         ],
+         "Schedule":{  
+            "StartDatetime":"2015-09-02T09:00:00",
+            "EndDatetime":"2015-09-02T10:00:00",
+            "Venue":"SKYCITY Auckland",
+            "EventSessionRegistrationId":0,
+            "FormattedVenueString":"SKYCITY Auckland",
+            "FormattedStartDate":"Wed 2 Sept,  9:00 a.m."
+         },
+         "Description":"Imagine using design to drive innovation and improve commercial performance, namely in a Mobile-First, Cloud-First era.  Successful businesses aren't just imagining it; They are doing it. And they are doing it with Design Thinking practices and methodologies. Design Thinking has been responsible for disrupting markets, transforming services and delivering profitable returns. The predominantly visual and user-centred techniques used in design research uncovers many unarticulated needs and requirements. And it’s the empathetic unearthing of these needs that delivers insightful value propositions.",
+         "Details":{  
+            "Audience":"Architect, IT Implementer, IT Decision Maker",
+            "Topic":"Architecture",
+            "Theme":"Cloud",
+            "Product":null,
+            "Level":"Level 200"
+         },
+         "IsCommonSession":false,
+         "CommonSessionCss":""
+      }
+   ]
+}
