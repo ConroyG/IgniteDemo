@@ -1,16 +1,24 @@
 ﻿@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
 <!DOCTYPE html>
 
-<html>
+<html ng-app="App">
 <head>
     <meta name="viewport" content="width=device-width" />
     <base href="/">
     <title>Ignite Timetable Demo</title>
 </head>
 <body>
-    <div>
-    </div>
+    <div ui-view="content"></div>
 
+
+    <script src="~/lib/angular/angular.js"></script>
+    <script src="~/lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="~/lib/angular-aria/angular-aria.js"></script>
+    <script src="~/lib/angular-animate/angular-animate.js"></script>
+    <script src="~/lib/angular-material/angular-material.js"></script>
+
+    <script src="~/js/module.js" asp-file-version="true"></script>
+    <script asp-src-include="~/js/**/*.js" asp-src-exclude="~/js/**/module.js" asp-file-version="true"></script>
 
 </body>
 </html>
