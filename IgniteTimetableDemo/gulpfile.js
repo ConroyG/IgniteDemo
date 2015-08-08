@@ -8,7 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var tsc = require('gulp-typescript');
 
 var config = {
-    allTypeScript: './wwwroot/js/**/*.js',
+    allTypeScript: './App/**/*.ts',
     libraryTypeScriptDefinitions: './typings/**/*.ts',
     appTypeScriptReferences: './typings/tsd.d.ts',
     tsOutputPath: './wwwroot/js',
@@ -26,7 +26,7 @@ gulp.task('compile-ts', function () {
                            declarationFiles: false,
                            noExternalResolve: true
                        }));
-
+    
     tsResult.dts.pipe(gulp.dest(config.tsOutputPath));
     return tsResult.js
                     .pipe(sourcemaps.write('.'))
