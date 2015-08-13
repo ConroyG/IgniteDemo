@@ -6,8 +6,21 @@
     <meta name="viewport" content="width=device-width" />
     <base href="/">
     <title>Ignite Timetable Demo</title>
+    <link href="~/lib/angular-material/angular-material.css" rel="stylesheet" />
+    <link asp-href-include="~/css/**/*.css" rel="stylesheet" />
 </head>
 <body>
+
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <span flex></span>
+            <h2>
+                <span>Microsoft Ignite NZ</span>
+            </h2>
+            <span flex></span>
+        </div>
+    </md-toolbar>
+
     <div ui-view="content"></div>
 
 

@@ -1,11 +1,13 @@
-﻿<md-content>
-    <md-list>
+﻿<md-content layout="row" layout-align="center end" layout-margin>
+    <md-list  flex="33">
         <md-list-item class="md-3-line" ng-repeat="i in model">
-            <img ng-src="{{item.face}}?{{$index}}" class="md-avatar" alt="{{item.who}}" />
-            <div class="md-list-item-text">
-                <h3>{{ i.Name }}</h3>
-                <h4>{{ i.Details.Theme }}</h4>
-                <p>{{ i.Description }}</p>
+            <div class="md-list-item-text  md-whiteframe-z2" ng-class="[i.CssColor]"  layout-margin>
+                <div layout-margin>
+                    <h3>{{ i.Name }}</h3>
+                    <p>Topic: {{ i.Details.Topic }}</p>
+                    <p>Theme: {{ i.Details.Theme }}</p>
+                    <p>Level: {{ i.Details.Level }}</p>
+                </div>
             </div>
         </md-list-item>
     </md-list>

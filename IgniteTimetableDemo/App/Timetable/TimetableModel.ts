@@ -5,6 +5,7 @@
         Details: ITimetableDetailModel;
         Schedule: ITimetableScheduleModel;
         Speakers: ITimetableSpeakerModel[];
+        CssColor: string;
     }
 
     export interface ITimetableDetailModel {
