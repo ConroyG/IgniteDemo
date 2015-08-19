@@ -1,14 +1,115 @@
-﻿<md-content layout="row" layout-align="center end" layout-margin>
-    <md-list  flex="33">
-        <md-list-item class="md-3-line" ng-repeat="i in model">
-            <div class="md-list-item-text  md-whiteframe-z2" ng-class="[i.CssColor]"  layout-margin>
-                <div layout-margin>
-                    <h3>{{ i.Name }}</h3>
-                    <p>Topic: {{ i.Details.Topic }}</p>
-                    <p>Theme: {{ i.Details.Theme }}</p>
-                    <p>Level: {{ i.Details.Level }}</p>
+﻿<md-content >
+
+    <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="TUE 1 SEPT">
+            <md-content class="md-padding" layout="column" layout-align="center" layout-margin>
+
+                <div ng-repeat="(key, timeTableItems) in model.Tue" >
+                    <div layout="row" layout-align="center">
+                        <div>
+                            <h1>{{ key }}</h1>
+                        </div>
+                        <div ng-repeat="i in timeTableItems">
+                            <div class="md-list-item-text  md-whiteframe-z2 time-table-item" ng-class="" layout-margin>
+                                <div layout="row">
+                                    <div flex class="border-top-color-{{ t }}" ng-repeat="t in i.Track"></div>
+                                </div>
+                                <div class="md-padding">
+                                    <h2 class="md-headline">{{ i.Name }}</h2>
+                                    <p>Topic: {{ i.Details.Topic }}</p>
+                                    <p>Theme: {{ i.Details.Theme }}</p>
+                                    <p>Level: {{ i.Details.Level }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider ng-if="!$last"></md-divider>
+
                 </div>
-            </div>
-        </md-list-item>
-    </md-list>
+            </md-content>
+        </md-tab>
+
+        <md-tab label="WED 2 SEPT">
+            <md-content class="md-padding">
+
+                <div ng-repeat="(key, timeTableItems) in model.Wed">
+                    <div layout="row" layout-align="center">
+                        <div>
+                            <h1>{{ key }}</h1>
+                        </div>
+                        <div ng-repeat="i in timeTableItems">
+                            <div class="md-list-item-text  md-whiteframe-z2 time-table-item" ng-class="" layout-margin>
+                                <div layout="row">
+                                    <div flex class="border-top-color-{{ t }}" ng-repeat="t in i.Track"></div>
+                                </div>
+                                <div class="md-padding">
+                                    <h2 class="md-headline">{{ i.Name }}</h2>
+                                    <p>Topic: {{ i.Details.Topic }}</p>
+                                    <p>Theme: {{ i.Details.Theme }}</p>
+                                    <p>Level: {{ i.Details.Level }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider ng-if="!$last"></md-divider>
+
+                </div>
+            </md-content>
+        </md-tab>
+
+        <md-tab label="THURS 3 SEPT">
+            <md-content class="md-padding">
+
+                <div ng-repeat="(key, timeTableItems) in model.Thu">
+                    <div layout="row" layout-align="center">
+                        <div>
+                            <h1>{{ key }}</h1>
+                        </div>
+                        <div ng-repeat="i in timeTableItems">
+                            <div class="md-list-item-text  md-whiteframe-z2 time-table-item" ng-class="" layout-margin>
+                                <div layout="row">
+                                    <div flex class="border-top-color-{{ t }}" ng-repeat="t in i.Track"></div>
+                                </div>
+                                <div class="md-padding">
+                                    <h2 class="md-headline">{{ i.Name }}</h2>
+                                    <p>Topic: {{ i.Details.Topic }}</p>
+                                    <p>Theme: {{ i.Details.Theme }}</p>
+                                    <p>Level: {{ i.Details.Level }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider ng-if="!$last"></md-divider>
+
+                </div>
+            </md-content>
+        </md-tab>
+        <md-tab label="FRI 4 SEP">
+            <md-content class="md-padding">
+
+                <div ng-repeat="(key, timeTableItems) in model.Fri">
+                    <div layout="row" layout-align="center">
+                        <div>
+                            <h1>{{ key }}</h1>
+                        </div>
+                        <div ng-repeat="i in timeTableItems">
+                            <div class="md-list-item-text  md-whiteframe-z2 time-table-item" ng-class="" layout-margin>
+                                <div layout="row">
+                                    <div flex class="border-top-color-{{ t }}" ng-repeat="t in i.Track"></div>
+                                </div>
+                                <div class="md-padding">
+                                    <h2 class="md-headline">{{ i.Name }}</h2>
+                                    <p>Topic: {{ i.Details.Topic }}</p>
+                                    <p>Theme: {{ i.Details.Theme }}</p>
+                                    <p>Level: {{ i.Details.Level }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider ng-if="!$last"></md-divider>
+
+                </div>
+            </md-content>
+        </md-tab>
+    </md-tabs>
 </md-content>

@@ -15,7 +15,7 @@ namespace IgniteTimetableDemo.Controllers
         [HttpGet]
         public FileResult Get()
         {
-            return File("sessions.json", "application/json");
+            return File("Timetable.json", "application/json");
         }
     }
 }

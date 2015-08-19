@@ -1,7 +1,7 @@
 ﻿module App.Timetable {
 
     export interface ITimetableScope extends angular.IScope {
-        model: ITimetableModel[]
+        model: IIgniteDaysModel
     }
 
     export class TimetableController {
@@ -9,14 +9,10 @@
         static $inject = ["$scope", "App.Timetable.TimetableService"];
         constructor($scope: ITimetableScope, private timetableService: TimetableService) {
             timetableService.get()
-                .success(function (data) {
-                $scope.model = data.Sessions;
+                .then(function (data) {
+                $scope.model = data;
 
-                for (var key in $scope.model) {
-                    if ($scope.model[key].Details.Audience.indexOf("IT Implementer") != 0) {
-                        $scope.model[key].CssColor = "border-top-color-purple";
-                    }
-                }
+               
             });
         }
     }
