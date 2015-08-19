@@ -33,11 +33,11 @@
             <md-content class="md-padding">
 
                 <div ng-repeat="(key, timeTableItems) in model.Wed">
-                    <div layout="row" layout-align="center">
-                        <div>
+                    <div layout="row" layout-align="end center"  layout-wrap>
+                        <div flex="20">
                             <h1>{{ key }}</h1>
                         </div>
-                        <div ng-repeat="i in timeTableItems">
+                        <div ng-repeat="i in timeTableItems"  flex="20">
                             <div class="md-list-item-text  md-whiteframe-z2 time-table-item" ng-class="" layout-margin>
                                 <div layout="row">
                                     <div flex class="border-top-color-{{ t }}" ng-repeat="t in i.Track"></div>
